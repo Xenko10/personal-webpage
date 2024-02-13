@@ -30,7 +30,7 @@ p {
   align-self: flex-start;
 }
 
-img {
+.hero img {
   min-width: 500px;
   max-width: 750px;
   width: 100%;
