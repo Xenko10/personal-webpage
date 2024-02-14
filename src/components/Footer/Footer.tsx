@@ -14,8 +14,10 @@ export default function Footer() {
           <img src='./src/assets/icons/gmail.png' alt='gmail' />
         </a>
       </div>
-      <hr />© {new Date().getFullYear()} created by&nbsp;
-      <a href='https://github.com/Xenko10'>Jakub Kołaczyński</a>
+      <div>
+        <hr />© {new Date().getFullYear()} created by&nbsp;
+        <a href='https://github.com/Xenko10'>Jakub Kołaczyński</a>
+      </div>
     </footer>
   );
 }
