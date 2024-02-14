@@ -19,11 +19,10 @@ nav {
 }
 
 .logo {
-  cursor: pointer;
   font-size: 2rem;
 }
 
-.logo a {
+.logo {
   color: #dfcc74;
   text-decoration: none;
 }

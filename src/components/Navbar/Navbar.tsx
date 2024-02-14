@@ -12,9 +12,7 @@ export default function Navbar() {
     <nav className={styles.nav}>
       <div className={styles.logoListWrapper}>
         <div className={styles.logo}>
-          <a href='#hero' onClick={handleClick}>
-            Jakub Kołaczyński<span className={styles.dot}>.</span>
-          </a>
+          Jakub Kołaczyński<span className={styles.dot}>.</span>
         </div>
         <ul>
           <li>
