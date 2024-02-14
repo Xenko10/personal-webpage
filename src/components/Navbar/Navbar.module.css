@@ -48,6 +48,11 @@ nav {
   border-radius: 5%;
 }
 
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
 .nav li:hover {
   cursor: pointer;
   text-decoration: underline;

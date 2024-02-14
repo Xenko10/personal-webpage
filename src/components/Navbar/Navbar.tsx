@@ -17,7 +17,11 @@ export default function Navbar() {
           </a>
         </div>
         <ul>
-          <li>About</li>
+          <li>
+            <a href='#about' onClick={handleClick}>
+              About
+            </a>
+          </li>
           <li>Projects</li>
           <li className={styles.contact}>Contact</li>
         </ul>
