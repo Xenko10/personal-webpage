@@ -19,8 +19,13 @@ nav {
 }
 
 .logo {
-  color: #dfcc74;
+  cursor: pointer;
   font-size: 2rem;
+}
+
+.logo a {
+  color: #dfcc74;
+  text-decoration: none;
 }
 
 .dot {
