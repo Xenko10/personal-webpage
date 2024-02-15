@@ -1,5 +1,4 @@
 import styles from "./Navbar.module.css";
-import { useState } from "react";
 
 function handleClick(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
   e.preventDefault();
@@ -9,8 +8,6 @@ function handleClick(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
 }
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <nav className={styles.nav}>
       <div className={styles.logoListWrapper}>
@@ -26,13 +23,6 @@ export default function Navbar() {
           <li>Projects</li>
           <li className={styles.contact}>Contact</li>
         </ul>
-        <button
-          className={`${styles.hamburger} ${isOpen ? styles.isActive : null}`}
-          onClick={() => {
-            setIsOpen(!isOpen);
-          }}>
-          <div className={styles.bar}></div>
-        </button>
       </div>
     </nav>
   );
