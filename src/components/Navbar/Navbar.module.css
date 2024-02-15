@@ -11,7 +11,7 @@ nav {
   justify-content: space-between;
   gap: 1rem;
   align-items: center;
-  padding: 1rem 3.5rem;
+  padding: 1rem 3rem;
   font-size: 1.25rem;
 
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
@@ -73,7 +73,7 @@ nav {
   color: #dfcc74;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
   .logo {
     font-size: 1.75rem;
   }
@@ -106,14 +106,14 @@ nav {
   .navLinks.closed {
     display: none;
   }
+}
 
+@media (max-width: 400px) {
   .logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
-  .dot {
-    font-size: 2.5rem;
-  }
-  .navLinks {
+
+  .menuButton {
     font-size: 1.25rem;
   }
 }
