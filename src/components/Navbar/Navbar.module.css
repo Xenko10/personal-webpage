@@ -38,6 +38,7 @@ nav {
 
 .nav ul li {
   padding: 0.25rem 0.75rem;
+  cursor: pointer;
 }
 
 .nav ul li a {
@@ -50,18 +51,22 @@ nav {
 }
 
 .nav a:hover {
-  cursor: pointer;
   text-decoration: underline;
-}
-
-.contact:hover {
-  color: #223843;
 }
 
 .contact {
   background-color: #dfcc74;
+  transition: background-color 0.3s;
   border-radius: 5%;
   font-weight: bold;
+}
+
+.contact:hover {
+  background-color: #f5f5f5;
+}
+
+li.contact a:hover {
+  text-decoration: none;
 }
 
 .menuButton {

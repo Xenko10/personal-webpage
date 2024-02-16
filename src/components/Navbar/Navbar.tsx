@@ -4,13 +4,9 @@ import { useState, useEffect } from "react";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
   function handleHref(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
     e.preventDefault();
-    toggleMenu();
+    setIsOpen(false);
     const target = e.target as HTMLAnchorElement;
     const id = target.href.split("#")[1];
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -36,10 +32,14 @@ export default function Navbar() {
         <div className={styles.logo}>
           Jakub Kołaczyński<span className={styles.dot}>.</span>
         </div>
-        <button onClick={toggleMenu} className={styles.menuButton}>
+        <button
+          onClick={() => {
+            setIsOpen(!isOpen);
+          }}
+          className={styles.menuButton}>
           {isOpen ? "X" : "☰"}
         </button>
-        <ul className={`${styles.navLinks} ${isOpen ? styles.open : null}`}>
+        <ul className={`${styles.navLinks} ${isOpen ? styles.open : ""}`}>
           <li>
             <a href='#about' onClick={handleHref}>
               About

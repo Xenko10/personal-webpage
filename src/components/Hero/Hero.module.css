@@ -32,8 +32,8 @@
 }
 
 .hero img {
-  min-width: 500px;
-  max-width: 750px;
+  min-width: 31.25rem;
+  max-width: 46.875rem;
   width: 100%;
   height: auto;
 }
