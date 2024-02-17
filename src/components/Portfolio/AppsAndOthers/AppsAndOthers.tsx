@@ -12,6 +12,14 @@ export default function Apps() {
           </a>
           )
         </li>
+        <li>
+          <b>To do list app in React</b> (
+          <a href='https://github.com/Xenko10/todo-app'>link</a>)
+        </li>
+        <li>
+          <b>To do list app in EJS</b> (
+          <a href='https://github.com/Xenko10/todo-list-app'>link</a>)
+        </li>
       </ul>
     </div>
   );
