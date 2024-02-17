@@ -1,8 +1,8 @@
-import styles from "./Projects.module.css";
+import styles from "./Portfolio.module.css";
 
 export default function Projects() {
   return (
-    <div id='projects' className={styles.projects}>
+    <div id='portfolio' className={styles.projects}>
       <h2>Projects</h2>
       <div className={styles.projectsWrapper}>
         <div className={styles.project}>
@@ -33,6 +33,15 @@ export default function Projects() {
         </div>
       </div>
       <h2>Applications & others</h2>
+      <ul>
+        <li>
+          <b>Spotify to Youtube playlist converter</b> (
+          <a href='https://github.com/Xenko10/spotify-to-youtube-playlist-converter'>
+            link
+          </a>
+          )
+        </li>
+      </ul>
     </div>
   );
 }

@@ -46,8 +46,8 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a href='#projects' onClick={handleHref}>
-              Projects
+            <a href='#portfolio' onClick={handleHref}>
+              Portfolio
             </a>
           </li>
           <li className={styles.contact}>
