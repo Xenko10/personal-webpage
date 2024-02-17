@@ -1,11 +1,14 @@
 .about {
+  position: relative;
+
   background-color: #373e45;
 
   display: flex;
   gap: 2rem;
   align-items: center;
   padding: 2rem 4rem;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.2),
+    0 5px 5px -5px rgba(0, 0, 0, 0.2);
 }
 
 .about p {
