@@ -1,5 +1,5 @@
 nav {
-  position: absolute;
+  position: sticky;
   width: 100%;
 }
 
@@ -13,7 +13,6 @@ nav {
   align-items: center;
   padding: 1rem 3rem;
   font-size: 1.25rem;
-
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -38,12 +37,12 @@ nav {
 
 .nav ul li {
   padding: 0.25rem 0.75rem;
-  cursor: pointer;
 }
 
 .nav ul li a {
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .nav ul li.contact a {
