@@ -9,6 +9,13 @@
   align-items: center;
 }
 
+.h2ulWrapper {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+}
+
 .apps h2 {
   color: white;
   margin: 2rem;
@@ -22,7 +29,6 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 1rem;
 }
 
@@ -30,7 +36,6 @@
   font-size: 1.25rem;
   font-weight: 300;
   color: white;
-  text-align: center;
 }
 
 .apps a {
