@@ -3,6 +3,7 @@ import styles from "./About.module.css";
 export default function About() {
   return (
     <div id='about' className={styles.about}>
+      <h2>About</h2>
       <div className={styles.imgAndpWrapper}>
         <img src='./about.jpg' alt='photo of me' />
         <p>
