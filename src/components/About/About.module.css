@@ -6,7 +6,7 @@
   display: flex;
   gap: 2rem;
   align-items: center;
-  padding: 2rem 4rem;
+  padding: 2rem;
   box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.2),
     0 5px 5px -5px rgba(0, 0, 0, 0.2);
 }
@@ -39,4 +39,24 @@
   width: 15rem;
   border-radius: 50%;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 650px) {
+  .about p {
+    font-size: 1.25rem;
+  }
+  .about img {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .about {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 2rem 1rem;
+  }
+  .about p {
+    text-align: center;
+  }
 }
