@@ -19,7 +19,7 @@ export default function Projects() {
             <img src='./projects/flashcards.png' alt='Flashcards' />
             <div className={styles.projectInfoWrapper}>
               <h3>Flashcards</h3>
-              <p>Flashcards app using React, Typescript and MySQL</p>
+              <p>Flashcards app using React, TypeScript and MySQL</p>
             </div>
           </a>
         </div>
@@ -28,7 +28,7 @@ export default function Projects() {
             <img src='./projects/spotify-quiz.png' alt='Spotify quiz' />
             <div className={styles.projectInfoWrapper}>
               <h3>Spotify quiz</h3>
-              <p>Your top 50 songs quiz using Spotify api and EJS</p>
+              <p>Your top 50 songs quiz using Spotify API and EJS</p>
             </div>
           </a>
         </div>
@@ -37,7 +37,7 @@ export default function Projects() {
             <img src='./projects/weather-app.png' alt='Weather app' />
             <div className={styles.projectInfoWrapper}>
               <h3>Weather app</h3>
-              <p>Weather app in React and Typescript</p>
+              <p>Weather app in React and TypeScript</p>
             </div>
           </a>
         </div>

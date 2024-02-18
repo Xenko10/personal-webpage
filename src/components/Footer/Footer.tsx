@@ -16,7 +16,7 @@ export default function Footer() {
       </div>
       <div>
         <hr />© {new Date().getFullYear()} created by&nbsp;
-        <a href='https://github.com/Xenko10'>Jakub Kołaczyński</a>
+        <a href='https://jakub-kolaczynski.vercel.app/'>Jakub Kołaczyński</a>
       </div>
     </footer>
   );
