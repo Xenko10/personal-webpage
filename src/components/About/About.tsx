@@ -12,7 +12,7 @@ export default function About() {
         </p>
       </div>
       <div className={styles.imgWrapper}>
-        <img src='./assets/about.jpg' alt='photo of me' />
+        <img src='./about.jpg' alt='photo of me' />
       </div>
     </div>
   );
