@@ -7,7 +7,7 @@ export default function Hero() {
         <h1 className={styles.title}>Hi, I am Jakub.</h1>
         <p className={styles.subtitle}>Frontend Developer</p>
       </div>
-      <img src='./src/assets/hero.png' alt='frontend developer' />
+      <img src='./assets/hero.png' alt='frontend developer' />
     </div>
   );
 }

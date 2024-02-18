@@ -5,13 +5,13 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.websitesWrapper}>
         <a href='https://github.com/Xenko10'>
-          <img src='./src/assets/icons/github.png' alt='github' />
+          <img src='./assets/icons/github.png' alt='github' />
         </a>
         <a href='https://www.linkedin.com/in/jakub-ko%C5%82aczy%C5%84ski-6027b4293//'>
-          <img src='./src/assets/icons/linkedin.png' alt='linkedin' />
+          <img src='./assets/icons/linkedin.png' alt='linkedin' />
         </a>
         <a href='mailto:jakubkolaczynski0@gmail.com'>
-          <img src='./src/assets/icons/gmail.png' alt='gmail' />
+          <img src='./assets/icons/gmail.png' alt='gmail' />
         </a>
       </div>
       <div>
