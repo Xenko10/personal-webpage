@@ -1,4 +1,10 @@
-body {
-  margin: 0;
-  padding: 0;
+:root {
+  --max-width: 1000px;
+  --padding: 6.25rem;
+}
+
+@media (max-width: 875px) {
+  :root {
+    --padding: 3rem;
+  }
 }
