@@ -1,8 +1,10 @@
 .footer {
   background-color: #223843;
+
   font-family: "Inter", sans-serif;
   font-size: 1.25rem;
   color: white;
+  text-align: center;
 
   box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
@@ -23,22 +25,17 @@
   gap: 2rem;
 }
 
-.footer img {
+.websitesWrapper > a > img {
   height: 2.5rem;
   width: 2.5rem;
 }
 
-hr {
+.contentWrapper > hr {
   border-top: 1px;
-  border-color: #757780;
   width: 14.5rem;
 }
 
-.footer > div {
-  text-align: center;
-}
-
-.footer a {
+.copyrights > a {
   color: #dfcc74;
   text-decoration: none;
 }

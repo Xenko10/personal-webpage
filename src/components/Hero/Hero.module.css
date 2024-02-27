@@ -10,12 +10,12 @@
   gap: 1rem;
 
   height: calc(100vh - 4.25rem);
-  padding: 0 var(--padding);
 
   color: white;
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 
   max-width: var(--max-width);
+  padding: 0 var(--padding);
   margin: 0 auto;
 }
 
@@ -39,10 +39,11 @@
 }
 
 .subtitle {
+  margin-top: 1rem;
   font-size: 2rem;
 }
 
-.hero img {
+.contentWrapper > img {
   min-width: 18.75rem;
   width: 50%;
   max-width: 31.25rem;

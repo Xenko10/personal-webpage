@@ -15,14 +15,10 @@ export default function Footer() {
             <img src='./icons/gmail.png' alt='gmail' />
           </a>
         </div>
-        <div>
-          <hr />
-          <div>
-            © {new Date().getFullYear()} created by&nbsp;
-            <a href='https://jakub-kolaczynski.vercel.app/'>
-              Jakub Kołaczyński
-            </a>
-          </div>
+        <hr />
+        <div className={styles.copyrights}>
+          © {new Date().getFullYear()} created by&nbsp;
+          <a href='https://jakub-kolaczynski.vercel.app/'>Jakub Kołaczyński</a>
         </div>
       </div>
     </footer>

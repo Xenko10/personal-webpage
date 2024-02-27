@@ -7,18 +7,18 @@ export default function Apps() {
         <h2>Applications & others</h2>
         <ul>
           <li>
-            <b>Spotify to Youtube playlist converter</b> (
+            Spotify to Youtube playlist converter (
             <a href='https://github.com/Xenko10/spotify-to-youtube-playlist-converter'>
               link
             </a>
             )
           </li>
           <li>
-            <b>To do list app in React</b> (
+            To do list app in React (
             <a href='https://github.com/Xenko10/todo-app'>link</a>)
           </li>
           <li>
-            <b>To do list app in EJS</b> (
+            To do list app in EJS (
             <a href='https://github.com/Xenko10/todo-list-app'>link</a>)
           </li>
         </ul>

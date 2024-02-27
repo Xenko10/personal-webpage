@@ -12,14 +12,14 @@
   padding: 0 var(--padding) 2rem var(--padding);
 }
 
-.apps h2 {
+.h2ulWrapper > h2 {
   color: white;
   margin: 2rem;
   font-size: 2rem;
   text-align: center;
 }
 
-.apps ul {
+.h2ulWrapper > ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -28,13 +28,12 @@
   gap: 1rem;
 }
 
-.apps li {
+.h2ulWrapper > ul > li {
   font-size: 1.25rem;
-  font-weight: 300;
   color: white;
 }
 
-.apps a {
+.h2ulWrapper > ul > li > a {
   color: #dfcc74;
   text-decoration: none;
 }
